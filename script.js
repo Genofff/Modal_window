@@ -9,3 +9,9 @@ openButton.addEventListener('click', () => {
 closeButton.addEventListener('click', () => {
   modal.style.display = 'none';
 });
+document.addEventListener('click', (event) => {
+    
+  if (!event.target.closest('#modal') && modal.style.display === 'block' && event.target != openButton ) {
+      modal.style.display = 'none';
+  }
+});
