@@ -1,0 +1,52 @@
+body {
+  background-color: rgb(155, 164, 181);
+}
+
+button {
+  background-color: #212a3e;
+  color: #f1f6f9;
+  border: none;
+  padding: 15px;
+  min-height: 5px;
+  min-width: 5px;
+}
+
+.open {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.modal {
+  background-color: rgb(57, 72, 103);
+  width: 600px;
+  height: auto;
+  text-align: center;
+}
+
+.modal {
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.panel {
+  width: 600px;
+  background-color: #212a3e;
+  text-align: right;
+  margin-bottom: 50px;
+}
+
+.modal img {
+  width: 500px;
+  height: auto;
+  background-color: #a5c0dd;
+}
+.modal p {
+  color: #f1f6f9;
+  font: italic 1.2em "Fira Sans", serif;
+  font-weight: bolder;
+}
